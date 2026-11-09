@@ -1,0 +1,15 @@
+{
+  "name": "costas",
+  "version": "1.0.0",
+  "description": "Arrays de Costas varridos por ordem, com as construcoes de Welch e Golomb como juiz, em Node puro, sem dependencia nenhuma.",
+  "type": "module",
+  "main": "src/index.js",
+  "exports": "./src/index.js",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "test": "node --test testes/*.test.js",
+    "medir": "node ferramentas/medidor.js"
+  },
+  "license": "MIT",
+  "private": false
+}
